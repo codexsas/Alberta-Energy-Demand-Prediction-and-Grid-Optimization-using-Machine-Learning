@@ -1,0 +1,328 @@
+POWER FLOW REPORT
+ 
+P S A T  2.1.11
+ 
+Author:  Federico Milano, (c) 2002-2019
+e-mail:  federico.milano@ucd.ie
+website: faraday1.ucd.ie/psat.html
+ 
+File:  C:\Users\rocke\OneDrive\Documents\MATLAB\Modified_Alberta_Grid_mdl
+Date:  10-Apr-2025 21:29:13
+
+
+NETWORK STATISTICS
+
+Buses:                        42         
+Lines:                        78         
+Generators:                   39         
+Loads:                        42         
+
+SOLUTION STATISTICS
+
+Number of Iterations:         4          
+Maximum P mismatch [MW]       0          
+Maximum Q mismatch [MVar]     1.2189     
+
+POWER FLOW RESULTS
+
+Bus         V           phase       P gen       Q gen       P load      Q load      
+            [kV]        [rad]       [MW]        [MVar]      [MW]        [MVar]      
+
+Bus 13      138         0.00804     152         60.1113     137.8933    60         
+Bus 20      138         0.00813     421         116.5139    348.3771    151.8      
+Bus 21      240         0.00734     9           81.1138     101.1691    44         
+Bus 22      138         0.00888     300        -69.8216     69.3391     30.2       
+Bus 23      240         0.00761     100         42.2133     35.2212     15.3       
+Bus 24      137.9661    0.00738     0           0           99.1574     43.1       
+Bus 26      240         0.00704     154         204.4505    287.6763    125.1      
+Bus 27      240         0.008       149         18.256      147.981     64.4       
+Bus 28      240         0.00827     589         9.5079      223.5135    97.4       
+Bus 29      240         0.00795     794.25     -182.0541    137.8931    60         
+Bus 30      240         0.00681     363         0.32737     157.4355    68.5       
+Bus 31      240         0.00613     10          533.5142    153.0471    66.6       
+Bus 32      240         0.00719     55.5357     109.6684    148.01      64.4       
+Bus 33      500         0.0063      827         611.3919    605.3645    263.7      
+Bus 34      138.0503    0.00814     120.5698   -39.77       1.6137      0.7        
+Bus 35      500         0.0054      480         154.4277    412.5539    179.5      
+Bus 36      240         0.00751     507.9286   -161.8737    19.6575     8.6        
+Bus 37      240         0.00716     49          64.1966     110.6829    48.2       
+Bus 38      138         0.00513     19          64.7448     98.78       42.9       
+Bus 39      500         0.00355     82          27.5426     98.4301     42.7       
+Bus 4       240         0.00687     1323       -436.7789    55.2867     24         
+Bus 40      500         0.00667     2545.107   -273.3435    191.6192    83.4       
+Bus 42      500         0.00697     965.8661   -188.8582    189.8899    82.6       
+Bus 43      500         0.00697     1008       -302.3231    30.2483     13.1       
+Bus 44      138         0.00308     320         47.731      220.1544    95.9       
+Bus 45      240         0.00343     276        -65.7144     120.6012    52.4       
+Bus 46      500.0007    0.00181     59.054     -19.44       107.657     46.9       
+Bus 47      500         0.00616     49          50.8544     104.7746    45.5       
+Bus 48      240         0.00655     467.6429    76.6662     249.2766    108.4      
+Bus 49      240.0013    0.00521     947        -311.59      31.8373     13.9       
+Bus 52      138         0.00627     350.0804   -1.9827      183.1834    79.6       
+Bus 53      240         0.0035      1038       -247.7756    45.0848     19.6       
+Bus 54      240         0.00408     216         124.4235    274.6419    119.8      
+Bus 55      138         0.0039      86.4375    -0.88046     43.1515     18.7       
+Bus 56      137.9786    0.00788     0           0           94.0194     40.9       
+Bus 57      240        -0.00035     30          84.6119     117.9794    51.5       
+Bus 6       500         0          -7552.8432   4063.5292   1824.1139   794.6      
+Bus 60      499.9561    0.00624     366         177.43      2121.3565   923        
+Bus17       138         0.00836     170         10.3487     47.3053     20.6       
+Bus18       137.9262    0.0079      0           0           53.6027     23.3       
+Bus19       240         0.00774     72          247.2923    348.3771    151.8      
+Bus25       500         0.00814     2850       -62.1242     898.8798    391.1      
+
+Maximum voltage limit violation at bus <Bus 13> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 20> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 21> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 21> [Qg_max = 4.37]
+Maximum voltage limit violation at bus <Bus 22> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 23> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 24> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 26> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 26> [Qg_max = 74.74]
+Maximum voltage limit violation at bus <Bus 27> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 28> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 29> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 30> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 31> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 31> [Qg_max = 4.84]
+Maximum voltage limit violation at bus <Bus 32> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 32> [Qg_max = 26.95]
+Maximum voltage limit violation at bus <Bus 33> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 33> [Qg_max = 401.35]
+Maximum voltage limit violation at bus <Bus 34> [V_max = 105]
+Minimum reactive power at bus <Bus 34>
+Maximum voltage limit violation at bus <Bus 35> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 36> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 37> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 37> [Qg_max = 23.76]
+Maximum voltage limit violation at bus <Bus 38> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 38> [Qg_max = 9.22]
+Maximum voltage limit violation at bus <Bus 39> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 4> [V_max = 105]
+Minimum reactive power limit violation at bus <Bus 4> [Qg_min = -435.56]
+Maximum voltage limit violation at bus <Bus 40> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 42> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 43> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 44> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 45> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 46> [V_max = 105]
+Minimum reactive power at bus <Bus 46>
+Maximum voltage limit violation at bus <Bus 47> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 47> [Qg_max = 23.76]
+Maximum voltage limit violation at bus <Bus 48> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 49> [V_max = 105]
+Minimum reactive power at bus <Bus 49>
+Maximum voltage limit violation at bus <Bus 52> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 53> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 54> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 54> [Qg_max = 104.74]
+Maximum voltage limit violation at bus <Bus 55> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 56> [V_max = 105]
+Maximum voltage limit violation at bus <Bus 57> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 57> [Qg_max = 14.56]
+Maximum voltage limit violation at bus <Bus 6> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus 6> [Qg_max = 750]
+Maximum voltage limit violation at bus <Bus 60> [V_max = 105]
+Maximum reactive power at bus <Bus 60>
+Maximum voltage limit violation at bus <Bus17> [V_max = 105]
+Maximum voltage limit violation at bus <Bus18> [V_max = 105]
+Maximum voltage limit violation at bus <Bus19> [V_max = 105]
+Maximum reactive power limit violation at bus <Bus19> [Qg_max = 34.94]
+Maximum voltage limit violation at bus <Bus25> [V_max = 105]
+
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [MW]        [MVar]      [MW]        [MVar]      
+
+Bus17       Bus18       1           53.6206     23.1651     0.01794    -0.13488    
+Bus17       Bus19       2           69.0741    -33.4164     0.02058    -0.21556    
+Bus19       Bus 23      3           32.4158    -12.6295     0.00157    -0.63639    
+Bus19       Bus 21      4           45.7054    -22.1619     0.00894    -0.24182    
+Bus 20      Bus 23      5           57.2555    -27.7247     0.01414    -0.22891    
+Bus 20      Bus 22      6          -28.0247     13.486      0.01017    -0.06499    
+Bus 23      Bus 21      7           31.3738    -15.256      0.00421    -0.25162    
+Bus 23      Bus 22      8          -142.4522    68.6839     0.0869     -0.08016    
+Bus 23      Bus 26      9           226.2953   -81.0328     0.04623    -0.89087    
+Bus 23      Bus 24      10          39.2175     15.0294     0.00614    -0.24756    
+Bus 21      Bus 26      11          70.5942    -25.8019     0.00753    -0.57647    
+Bus25       Bus 21      12          486.3382   -155.4155    0.125      -1.2573     
+Bus25       Bus 40      13          1062.1607  -156.9055    0.23049    -0.79096    
+Bus 40      Bus 21      14         -400.4311    126.7832    0.08478    -1.3837     
+Bus 47      Bus 4       15         -1208.8379   428.7967    0.30407    -3.5762     
+Bus 26      Bus 24      16         -25.4077     46.2019     0.0097     -0.24019    
+Bus 24      Bus 29      17         -25.3178     0.91304     0.00674    -0.07207    
+Bus 24      Bus 22      18         -60.0457     17.7059     0.04119    -0.00065    
+Bus 29      Bus 40      19          503.1104   -179.333     0.22844    -0.37925    
+Bus 29      Bus 30      20          127.9221   -61.736      0.07       -0.11522    
+Bus 28      Bus 56      21          158.5361   -12.3039     0.02925    -0.72028    
+Bus 28      Bus 13      22          26.3508    -12.8351     0.00297    -0.25419    
+Bus 44      Bus 53      23         -15.7633     7.5635      0.00322    -0.07941    
+Bus 56      Bus 13      24         -8.7596     -2.9267      0.00089    -0.08421    
+Bus 56      Bus 36      25          10.9724    -12.4407     0.00288    -0.0801     
+Bus 56      Bus 31      26          62.2746    -37.1163     0.05518     0.02835    
+Bus 13      Bus 32      27          31.6941    -15.3121     0.013      -0.05913    
+Bus 32      Bus 37      28          11.51      -4.6094      0.00012    -1.0203     
+Bus 32      Bus 36      29         -72.3032     34.6249     0.01119    -0.4975     
+Bus25       Bus19       30          242.0917   -77.8318     0.03098    -1.5527     
+Bus 37      Bus 36      31         -97.1122     30.5504     0.01082    -0.72633    
+Bus 37      Bus 42      32          46.9391    -18.1429     0.00328    -0.63187    
+Bus 36      Bus 42      33          329.8033   -116.4352    0.06182    -1.3986     
+Bus 26      Bus 40      34          188.5672   -72.2189     0.02649    -1.2113     
+Bus 27      Bus 40      35          150.4205   -72.5525     0.09678    -0.05969    
+Bus 40      Bus 30      36         -137.2522    65.0769     0.00929    -2.2407     
+Bus 40      Bus 60      37          1727.4812  -49.6465     0.17064    -10.0546    
+Bus25       Bus 27      38          236.6939   -86.4957     0.01165    -4.3973     
+Bus 30      Bus 35      39          196.1552   -62.4757     0.08824    -0.10294    
+Bus 34      Bus 38      40          118.9561   -40.47       0.16565     0.25736    
+Bus 38      Bus 35      41         -19.9967     9.5614      0.00259    -0.16679    
+Bus 38      Bus 39      42          59.0071    -28.4439     0.04504     0.0073     
+Bus 35      Bus 40      43         -3066.1235   974.8306    1.2429     -2.6952     
+Bus 39      Bus 35      44         -4458.2224   1420.3473   2.6283      1.657      
+Bus 39      Bus 6       45          4272.0417  -1353.1515   4.8185      11.8376    
+Bus 42      Bus 35      46          948.4806   -301.9144    0.47533    -0.15671    
+Bus 27      Bus 28      47         -104.4224    36.6955     0.00985    -0.99303    
+Bus 31      Bus 35      48          203.2555   -64.9966     0.04738    -0.61146    
+Bus 60      Bus 31      49          284.1149   -503.6394    0.03167    -8.8732     
+Bus 33      Bus 60      50          312.1713    271.2968    0.01043    -10.2257    
+Bus 33      Bus 47      51          101.0102   -16.0558     0.00208    -2.3409     
+Bus 42      Bus 43      52         -3.2245     -1.5553      0          -5.56       
+Bus 43      Bus 47      53          974.5272   -311.4184    0.25096    -2.5116     
+Bus 42      Bus 48      54          207.3975   -100.5361    0.04241    -1.0421     
+Bus 27      Bus 33      55          191.7031   -92.3855     0.15716     0.0655     
+Bus 45      Bus 47      56         -1076.7663   384.6404    1.0479      1.9216     
+Bus 45      Bus 49      57         -701.6547    247.7471    0.44387     0.22562    
+Bus 45      Bus 6       58          1751.3554  -662.3716    2.282       4.7273     
+Bus 45      Bus 46      59          182.4645   -88.1303     0.14249     0.03509    
+Bus 47      Bus 48      60         -462.0064    145.5093    0.05643    -3.1227     
+Bus 47      Bus 49      61          1719.9103  -559.5151    0.52294    -3.3072     
+Bus 47      Bus 52      62         -107.3704    50.6607     0.00568    -2.2482     
+Bus 48      Bus 4       63         -36.3415     17.4041     0.00565    -0.24863    
+Bus 49      Bus 54      64          313.8734   -98.4853     0.11265    -0.40644    
+Bus25       Bus 28      65         -76.1643     23.4242     0.00307    -1.6404     
+Bus 49      Bus 53      66          675.2431   -238.0096    0.41054     0.13203    
+Bus 49      Bus 46      67          943.335    -297.6816    1.019       2.441      
+Bus 52      Bus 4       68         -22.2177     10.6805     0.00639    -0.07283    
+Bus 52      Bus 54      69          81.7387    -39.3542     0.0864      0.09306    
+Bus 54      Bus 53      70          295.8087   -112.8911    0.06517    -1.1094     
+Bus 54      Bus 55      71          40.9625    -20.0115     0.00359    -0.51326    
+Bus 39      Bus 44      72          228.7128   -110.8045    0.05157    -1.0231     
+Bus19       Bus 20      73         -43.3841     20.8037     0.00806    -0.24365    
+Bus 44      Bus 6       74          344.2701   -165.514     0.51066     0.80058    
+Bus 6       Bus 46      75         -3104.8921   1104.2487   2.0058      1.2018     
+Bus 57      Bus 6       76         -87.9794     33.1119     0.01153    -0.61014    
+Bus 46      Bus 53      77         -2030.8629   648.419     1.0913      0.12833    
+Bus 53      Bus 55      78         -84.2294     38.6347     0.01548    -0.44394    
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [MW]        [MVar]      [MW]        [MVar]      
+
+Bus18       Bus17       1          -53.6027    -23.3        0.01794    -0.13488    
+Bus19       Bus17       2          -69.0535     33.2009     0.02058    -0.21556    
+Bus 23      Bus19       3          -32.4142     11.9931     0.00157    -0.63639    
+Bus 21      Bus19       4          -45.6965     21.9201     0.00894    -0.24182    
+Bus 23      Bus 20      5          -57.2413     27.4958     0.01414    -0.22891    
+Bus 22      Bus 20      6           28.0349    -13.5509     0.01017    -0.06499    
+Bus 21      Bus 23      7          -31.3696     15.0044     0.00421    -0.25162    
+Bus 22      Bus 23      8           142.5391   -68.764      0.0869     -0.08016    
+Bus 26      Bus 23      9          -226.2491    80.142      0.04623    -0.89087    
+Bus 24      Bus 23      10         -39.2113    -15.2769     0.00614    -0.24756    
+Bus 26      Bus 21      11         -70.5866     25.2255     0.00753    -0.57647    
+Bus 21      Bus25       12         -486.2132    154.1582    0.125      -1.2573     
+Bus 40      Bus25       13         -1061.9303   156.1145    0.23049    -0.79096    
+Bus 21      Bus 40      14          400.5159   -128.1669    0.08478    -1.3837     
+Bus 4       Bus 47      15          1209.142   -432.3729    0.30407    -3.5762     
+Bus 24      Bus 26      16          25.4174    -46.4421     0.0097     -0.24019    
+Bus 29      Bus 24      17          25.3245    -0.98512     0.00674    -0.07207    
+Bus 22      Bus 24      18          60.0869    -17.7066     0.04119    -0.00065    
+Bus 40      Bus 29      19         -502.8819    178.9537    0.22844    -0.37925    
+Bus 30      Bus 29      20         -127.8521    61.6208     0.07       -0.11522    
+Bus 56      Bus 28      21         -158.5069    11.5837     0.02925    -0.72028    
+Bus 13      Bus 28      22         -26.3478     12.5809     0.00297    -0.25419    
+Bus 53      Bus 44      23          15.7665    -7.6429      0.00322    -0.07941    
+Bus 13      Bus 56      24          8.7604      2.8425      0.00089    -0.08421    
+Bus 36      Bus 56      25         -10.9695     12.3606     0.00288    -0.0801     
+Bus 31      Bus 56      26         -62.2194     37.1446     0.05518     0.02835    
+Bus 32      Bus 13      27         -31.6811     15.253      0.013      -0.05913    
+Bus 37      Bus 32      28         -11.5098     3.5891      0.00012    -1.0203     
+Bus 36      Bus 32      29          72.3144    -35.1224     0.01119    -0.4975     
+Bus19       Bus25       30         -242.0607    76.2791     0.03098    -1.5527     
+Bus 36      Bus 37      31          97.123     -31.2767     0.01082    -0.72633    
+Bus 42      Bus 37      32         -46.9358     17.511      0.00328    -0.63187    
+Bus 42      Bus 36      33         -329.7415    115.0365    0.06182    -1.3986     
+Bus 40      Bus 26      34         -188.5407    71.0076     0.02649    -1.2113     
+Bus 40      Bus 27      35         -150.3237    72.4928     0.09678    -0.05969    
+Bus 30      Bus 40      36          137.2615   -67.3177     0.00929    -2.2407     
+Bus 60      Bus 40      37         -1727.3105   39.5919     0.17064    -10.0546    
+Bus 27      Bus25       38         -236.6822    82.0984     0.01165    -4.3973     
+Bus 35      Bus 30      39         -196.0669    62.3728     0.08824    -0.10294    
+Bus 38      Bus 34      40         -118.7904    40.7274     0.16565     0.25736    
+Bus 35      Bus 38      41          19.9993    -9.7282      0.00259    -0.16679    
+Bus 39      Bus 38      42         -58.9621     28.4512     0.04504     0.0073     
+Bus 40      Bus 35      43          3067.3665  -977.5258    1.2429     -2.6952     
+Bus 35      Bus 39      44          4460.8507  -1418.6903   2.6283      1.657      
+Bus 6       Bus 39      45         -4267.2232   1364.989    4.8185      11.8376    
+Bus 35      Bus 42      46         -948.0053    301.7577    0.47533    -0.15671    
+Bus 28      Bus 27      47          104.4322   -37.6885     0.00985    -0.99303    
+Bus 35      Bus 31      48         -203.2081    64.3852     0.04738    -0.61146    
+Bus 31      Bus 60      49         -284.0832    494.7662    0.03167    -8.8732     
+Bus 60      Bus 33      50         -312.1609   -281.5225    0.01043    -10.2257    
+Bus 47      Bus 33      51         -101.0081    13.715      0.00208    -2.3409     
+Bus 43      Bus 42      52          3.2245     -4.0047      0          -5.56       
+Bus 47      Bus 43      53         -974.2762    308.9068    0.25096    -2.5116     
+Bus 48      Bus 42      54         -207.355     99.494      0.04241    -1.0421     
+Bus 33      Bus 27      55         -191.546     92.451      0.15716     0.0655     
+Bus 47      Bus 45      56          1077.8142  -382.7188    1.0479      1.9216     
+Bus 49      Bus 45      57          702.0986   -247.5215    0.44387     0.22562    
+Bus 6       Bus 45      58         -1749.0734   667.099     2.282       4.7273     
+Bus 46      Bus 45      59         -182.322     88.1654     0.14249     0.03509    
+Bus 48      Bus 47      60          462.0628   -148.632     0.05643    -3.1227     
+Bus 49      Bus 47      61         -1719.3873   556.208     0.52294    -3.3072     
+Bus 52      Bus 47      62          107.3761   -52.9089     0.00568    -2.2482     
+Bus 4       Bus 48      63          36.3472    -17.6527     0.00565    -0.24863    
+Bus 54      Bus 49      64         -313.7607    98.0788     0.11265    -0.40644    
+Bus 28      Bus25       65          76.1674    -25.0646     0.00307    -1.6404     
+Bus 53      Bus 49      66         -674.8326    238.1416    0.41054     0.13203    
+Bus 46      Bus 49      67         -942.3159    300.1226    1.019       2.441      
+Bus 4       Bus 52      68          22.2241    -10.7533     0.00639    -0.07283    
+Bus 54      Bus 52      69         -81.6523     39.4473     0.0864      0.09306    
+Bus 53      Bus 54      70         -295.7435    111.7817    0.06517    -1.1094     
+Bus 55      Bus 54      71         -40.9589     19.4982     0.00359    -0.51326    
+Bus 44      Bus 39      72         -228.6612    109.7814    0.05157    -1.0231     
+Bus 20      Bus19       73          43.3921    -21.0474     0.00806    -0.24365    
+Bus 6       Bus 44      74         -343.7594    166.3145    0.51066     0.80058    
+Bus 46      Bus 6       75          3106.8978  -1103.047    2.0058      1.2018     
+Bus 6       Bus 57      76          87.9909    -33.7221     0.01153    -0.61014    
+Bus 53      Bus 46      77          2031.9541  -648.2907    1.0913      0.12833    
+Bus 55      Bus 53      78          84.2449    -39.0787     0.01548    -0.44394    
+
+GLOBAL SUMMARY REPORT
+
+
+TOTAL GENERATION
+
+REAL POWER [MW]               10768.6288 
+REACTIVE POWER [MVar]         4616.5371  
+
+TOTAL LOAD
+
+REAL POWER [MW]               10746.837  
+REACTIVE POWER [MVar]         4677.7     
+
+TOTAL LOSSES
+
+REAL POWER [MW]               21.7918    
+REACTIVE POWER [MVar]        -61.1629    
+
+LIMIT VIOLATION STATISTICS
+# OF VOLTAGE LIMIT VIOLATIONS: 42
+# OF REACTIVE POWER LIMIT VIOLATIONS: 13
+ALL CURRENT FLOWS WITHIN LIMITS.
+ALL REAL POWER FLOWS WITHIN LIMITS.
+ALL APPARENT POWER FLOWS WITHIN LIMITS.
+
+

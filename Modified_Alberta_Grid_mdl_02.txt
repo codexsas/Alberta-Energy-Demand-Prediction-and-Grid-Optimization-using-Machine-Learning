@@ -1,0 +1,329 @@
+POWER FLOW REPORT
+ 
+P S A T  2.1.11
+ 
+Author:  Federico Milano, (c) 2002-2019
+e-mail:  federico.milano@ucd.ie
+website: faraday1.ucd.ie/psat.html
+ 
+File:  C:\Users\rocke\OneDrive\Documents\MATLAB\Modified_Alberta_Grid_mdl
+Date:  09-Apr-2025 22:05:43
+
+
+NETWORK STATISTICS
+
+Buses:                        42         
+Lines:                        78         
+Generators:                   39         
+Loads:                        42         
+
+SOLUTION STATISTICS
+
+Number of Iterations:         4          
+Maximum P mismatch [p.u.]     0          
+Maximum Q mismatch [p.u.]     0.00122    
+Power rate [MVA]              1000       
+
+POWER FLOW RESULTS
+
+Bus         V           phase       P gen       Q gen       P load      Q load      
+            [p.u.]      [rad]       [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus 13      1           0.00804     0.152       0.06011     0.13789     0.06       
+Bus 20      1           0.00813     0.421       0.11651     0.34838     0.1518     
+Bus 21      1           0.00734     0.009       0.08111     0.10117     0.044      
+Bus 22      1           0.00888     0.3        -0.06982     0.06934     0.0302     
+Bus 23      1           0.00761     0.1         0.04221     0.03522     0.0153     
+Bus 24      0.99975     0.00738     0           0           0.09916     0.0431     
+Bus 26      1           0.00704     0.154       0.20445     0.28768     0.1251     
+Bus 27      1           0.008       0.149       0.01826     0.14798     0.0644     
+Bus 28      1           0.00827     0.589       0.00951     0.22351     0.0974     
+Bus 29      1           0.00795     0.79425    -0.18205     0.13789     0.06       
+Bus 30      1           0.00681     0.363       0.00033     0.15744     0.0685     
+Bus 31      1           0.00613     0.01        0.53351     0.15305     0.0666     
+Bus 32      1           0.00719     0.05554     0.10967     0.14801     0.0644     
+Bus 33      1           0.0063      0.827       0.61139     0.60536     0.2637     
+Bus 34      1.0004      0.00814     0.12057    -0.03977     0.00161     0.0007     
+Bus 35      1           0.0054      0.48        0.15443     0.41255     0.1795     
+Bus 36      1           0.00751     0.50793    -0.16187     0.01966     0.0086     
+Bus 37      1           0.00716     0.049       0.0642      0.11068     0.0482     
+Bus 38      1           0.00513     0.019       0.06474     0.09878     0.0429     
+Bus 39      1           0.00355     0.082       0.02754     0.09843     0.0427     
+Bus 4       1           0.00687     1.323      -0.43678     0.05529     0.024      
+Bus 40      1           0.00667     2.5451     -0.27334     0.19162     0.0834     
+Bus 42      1           0.00697     0.96587    -0.18886     0.18989     0.0826     
+Bus 43      1           0.00697     1.008      -0.30232     0.03025     0.0131     
+Bus 44      1           0.00308     0.32        0.04773     0.22015     0.0959     
+Bus 45      1           0.00343     0.276      -0.06571     0.1206      0.0524     
+Bus 46      1           0.00181     0.05905    -0.01944     0.10766     0.0469     
+Bus 47      1           0.00616     0.049       0.05085     0.10477     0.0455     
+Bus 48      1           0.00655     0.46764     0.07667     0.24928     0.1084     
+Bus 49      1           0.00521     0.947      -0.31159     0.03184     0.0139     
+Bus 52      1           0.00627     0.35008    -0.00198     0.18318     0.0796     
+Bus 53      1           0.0035      1.038      -0.24778     0.04508     0.0196     
+Bus 54      1           0.00408     0.216       0.12442     0.27464     0.1198     
+Bus 55      1           0.0039      0.08644    -0.00088     0.04315     0.0187     
+Bus 56      0.99985     0.00788     0           0           0.09402     0.0409     
+Bus 57      1          -0.00035     0.03        0.08461     0.11798     0.0515     
+Bus 6       1           0          -7.5528      4.0635      1.8241      0.7946     
+Bus 60      0.99991     0.00624     0.366       0.17743     2.1214      0.923      
+Bus17       1           0.00836     0.17        0.01035     0.04731     0.0206     
+Bus18       0.99947     0.0079      0           0           0.0536      0.0233     
+Bus19       1           0.00774     0.072       0.24729     0.34838     0.1518     
+Bus25       1           0.00814     2.85       -0.06212     0.89888     0.3911     
+
+Maximum voltage limit violation at bus <Bus 13> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 20> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 21> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 21> [Qg_max = 0.00437]
+Maximum voltage limit violation at bus <Bus 22> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 23> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 24> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 26> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 26> [Qg_max = 0.07474]
+Maximum voltage limit violation at bus <Bus 27> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 28> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 29> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 30> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 31> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 31> [Qg_max = 0.00484]
+Maximum voltage limit violation at bus <Bus 32> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 32> [Qg_max = 0.02695]
+Maximum voltage limit violation at bus <Bus 33> [V_max = 0.21]
+Maximum reactive power limit violation at bus <Bus 33> [Qg_max = 0.40135]
+Maximum voltage limit violation at bus <Bus 34> [V_max = 0.76087]
+Minimum reactive power at bus <Bus 34>
+Maximum voltage limit violation at bus <Bus 35> [V_max = 0.21]
+Maximum voltage limit violation at bus <Bus 36> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 37> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 37> [Qg_max = 0.02376]
+Maximum voltage limit violation at bus <Bus 38> [V_max = 0.76087]
+Maximum reactive power limit violation at bus <Bus 38> [Qg_max = 0.00922]
+Maximum voltage limit violation at bus <Bus 39> [V_max = 0.21]
+Maximum voltage limit violation at bus <Bus 4> [V_max = 0.4375]
+Minimum reactive power limit violation at bus <Bus 4> [Qg_min = -0.43556]
+Maximum voltage limit violation at bus <Bus 40> [V_max = 0.21]
+Maximum voltage limit violation at bus <Bus 42> [V_max = 0.21]
+Maximum voltage limit violation at bus <Bus 43> [V_max = 0.21]
+Maximum voltage limit violation at bus <Bus 44> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 45> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 46> [V_max = 0.21]
+Minimum reactive power at bus <Bus 46>
+Maximum voltage limit violation at bus <Bus 47> [V_max = 0.21]
+Maximum reactive power limit violation at bus <Bus 47> [Qg_max = 0.02376]
+Maximum voltage limit violation at bus <Bus 48> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 49> [V_max = 0.4375]
+Minimum reactive power at bus <Bus 49>
+Maximum voltage limit violation at bus <Bus 52> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 53> [V_max = 0.4375]
+Maximum voltage limit violation at bus <Bus 54> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 54> [Qg_max = 0.10474]
+Maximum voltage limit violation at bus <Bus 55> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 56> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus 57> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus 57> [Qg_max = 0.01456]
+Maximum voltage limit violation at bus <Bus 6> [V_max = 0.21]
+Maximum reactive power limit violation at bus <Bus 6> [Qg_max = 0.75]
+Maximum voltage limit violation at bus <Bus 60> [V_max = 0.21]
+Maximum reactive power at bus <Bus 60>
+Maximum voltage limit violation at bus <Bus17> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus18> [V_max = 0.76087]
+Maximum voltage limit violation at bus <Bus19> [V_max = 0.4375]
+Maximum reactive power limit violation at bus <Bus19> [Qg_max = 0.03494]
+Maximum voltage limit violation at bus <Bus25> [V_max = 0.21]
+
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus17       Bus18       1           0.05362     0.02317     2e-05      -0.00013    
+Bus17       Bus19       2           0.06907    -0.03342     2e-05      -0.00022    
+Bus19       Bus 23      3           0.03242    -0.01263     0          -0.00064    
+Bus19       Bus 21      4           0.04571    -0.02216     1e-05      -0.00024    
+Bus 20      Bus 23      5           0.05726    -0.02772     1e-05      -0.00023    
+Bus 20      Bus 22      6          -0.02802     0.01349     1e-05      -6e-05      
+Bus 23      Bus 21      7           0.03137    -0.01526     0          -0.00025    
+Bus 23      Bus 22      8          -0.14245     0.06868     9e-05      -8e-05      
+Bus 23      Bus 26      9           0.2263     -0.08103     5e-05      -0.00089    
+Bus 23      Bus 24      10          0.03922     0.01503     1e-05      -0.00025    
+Bus 21      Bus 26      11          0.07059    -0.0258      1e-05      -0.00058    
+Bus25       Bus 21      12          0.48634    -0.15542     0.00013    -0.00126    
+Bus25       Bus 40      13          1.0622     -0.15691     0.00023    -0.00079    
+Bus 40      Bus 21      14         -0.40043     0.12678     8e-05      -0.00138    
+Bus 47      Bus 4       15         -1.2088      0.4288      0.0003     -0.00358    
+Bus 26      Bus 24      16         -0.02541     0.0462      1e-05      -0.00024    
+Bus 24      Bus 29      17         -0.02532     0.00091     1e-05      -7e-05      
+Bus 24      Bus 22      18         -0.06005     0.01771     4e-05       0          
+Bus 29      Bus 40      19          0.50311    -0.17933     0.00023    -0.00038    
+Bus 29      Bus 30      20          0.12792    -0.06174     7e-05      -0.00012    
+Bus 28      Bus 56      21          0.15854    -0.0123      3e-05      -0.00072    
+Bus 28      Bus 13      22          0.02635    -0.01284     0          -0.00025    
+Bus 44      Bus 53      23         -0.01576     0.00756     0          -8e-05      
+Bus 56      Bus 13      24         -0.00876    -0.00293     0          -8e-05      
+Bus 56      Bus 36      25          0.01097    -0.01244     0          -8e-05      
+Bus 56      Bus 31      26          0.06227    -0.03712     6e-05       3e-05      
+Bus 13      Bus 32      27          0.03169    -0.01531     1e-05      -6e-05      
+Bus 32      Bus 37      28          0.01151    -0.00461     0          -0.00102    
+Bus 32      Bus 36      29         -0.0723      0.03462     1e-05      -0.0005     
+Bus25       Bus19       30          0.24209    -0.07783     3e-05      -0.00155    
+Bus 37      Bus 36      31         -0.09711     0.03055     1e-05      -0.00073    
+Bus 37      Bus 42      32          0.04694    -0.01814     0          -0.00063    
+Bus 36      Bus 42      33          0.3298     -0.11644     6e-05      -0.0014     
+Bus 26      Bus 40      34          0.18857    -0.07222     3e-05      -0.00121    
+Bus 27      Bus 40      35          0.15042    -0.07255     0.0001     -6e-05      
+Bus 40      Bus 30      36         -0.13725     0.06508     1e-05      -0.00224    
+Bus 40      Bus 60      37          1.7275     -0.04965     0.00017    -0.01005    
+Bus25       Bus 27      38          0.23669    -0.0865      1e-05      -0.0044     
+Bus 30      Bus 35      39          0.19616    -0.06248     9e-05      -0.0001     
+Bus 34      Bus 38      40          0.11896    -0.04047     0.00017     0.00026    
+Bus 38      Bus 35      41         -0.02        0.00956     0          -0.00017    
+Bus 38      Bus 39      42          0.05901    -0.02844     5e-05       1e-05      
+Bus 35      Bus 40      43         -3.0661      0.97483     0.00124    -0.0027     
+Bus 39      Bus 35      44         -4.4582      1.4204      0.00263     0.00166    
+Bus 39      Bus 6       45          4.272      -1.3532      0.00482     0.01184    
+Bus 42      Bus 35      46          0.94848    -0.30191     0.00048    -0.00016    
+Bus 27      Bus 28      47         -0.10442     0.0367      1e-05      -0.00099    
+Bus 31      Bus 35      48          0.20326    -0.065       5e-05      -0.00061    
+Bus 60      Bus 31      49          0.28411    -0.50364     3e-05      -0.00887    
+Bus 33      Bus 60      50          0.31217     0.2713      1e-05      -0.01023    
+Bus 33      Bus 47      51          0.10101    -0.01606     0          -0.00234    
+Bus 42      Bus 43      52         -0.00322    -0.00156     0          -0.00556    
+Bus 43      Bus 47      53          0.97453    -0.31142     0.00025    -0.00251    
+Bus 42      Bus 48      54          0.2074     -0.10054     4e-05      -0.00104    
+Bus 27      Bus 33      55          0.1917     -0.09239     0.00016     7e-05      
+Bus 45      Bus 47      56         -1.0768      0.38464     0.00105     0.00192    
+Bus 45      Bus 49      57         -0.70165     0.24775     0.00044     0.00023    
+Bus 45      Bus 6       58          1.7514     -0.66237     0.00228     0.00473    
+Bus 45      Bus 46      59          0.18246    -0.08813     0.00014     4e-05      
+Bus 47      Bus 48      60         -0.46201     0.14551     6e-05      -0.00312    
+Bus 47      Bus 49      61          1.7199     -0.55952     0.00052    -0.00331    
+Bus 47      Bus 52      62         -0.10737     0.05066     1e-05      -0.00225    
+Bus 48      Bus 4       63         -0.03634     0.0174      1e-05      -0.00025    
+Bus 49      Bus 54      64          0.31387    -0.09849     0.00011    -0.00041    
+Bus25       Bus 28      65         -0.07616     0.02342     0          -0.00164    
+Bus 49      Bus 53      66          0.67524    -0.23801     0.00041     0.00013    
+Bus 49      Bus 46      67          0.94333    -0.29768     0.00102     0.00244    
+Bus 52      Bus 4       68         -0.02222     0.01068     1e-05      -7e-05      
+Bus 52      Bus 54      69          0.08174    -0.03935     9e-05       9e-05      
+Bus 54      Bus 53      70          0.29581    -0.11289     7e-05      -0.00111    
+Bus 54      Bus 55      71          0.04096    -0.02001     0          -0.00051    
+Bus 39      Bus 44      72          0.22871    -0.1108      5e-05      -0.00102    
+Bus19       Bus 20      73         -0.04338     0.0208      1e-05      -0.00024    
+Bus 44      Bus 6       74          0.34427    -0.16551     0.00051     0.0008     
+Bus 6       Bus 46      75         -3.1049      1.1043      0.00201     0.0012     
+Bus 57      Bus 6       76         -0.08798     0.03311     1e-05      -0.00061    
+Bus 46      Bus 53      77         -2.0309      0.64842     0.00109     0.00013    
+Bus 53      Bus 55      78         -0.08423     0.03863     2e-05      -0.00044    
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus18       Bus17       1          -0.0536     -0.0233      2e-05      -0.00013    
+Bus19       Bus17       2          -0.06905     0.0332      2e-05      -0.00022    
+Bus 23      Bus19       3          -0.03241     0.01199     0          -0.00064    
+Bus 21      Bus19       4          -0.0457      0.02192     1e-05      -0.00024    
+Bus 23      Bus 20      5          -0.05724     0.0275      1e-05      -0.00023    
+Bus 22      Bus 20      6           0.02803    -0.01355     1e-05      -6e-05      
+Bus 21      Bus 23      7          -0.03137     0.015       0          -0.00025    
+Bus 22      Bus 23      8           0.14254    -0.06876     9e-05      -8e-05      
+Bus 26      Bus 23      9          -0.22625     0.08014     5e-05      -0.00089    
+Bus 24      Bus 23      10         -0.03921    -0.01528     1e-05      -0.00025    
+Bus 26      Bus 21      11         -0.07059     0.02523     1e-05      -0.00058    
+Bus 21      Bus25       12         -0.48621     0.15416     0.00013    -0.00126    
+Bus 40      Bus25       13         -1.0619      0.15611     0.00023    -0.00079    
+Bus 21      Bus 40      14          0.40052    -0.12817     8e-05      -0.00138    
+Bus 4       Bus 47      15          1.2091     -0.43237     0.0003     -0.00358    
+Bus 24      Bus 26      16          0.02542    -0.04644     1e-05      -0.00024    
+Bus 29      Bus 24      17          0.02532    -0.00099     1e-05      -7e-05      
+Bus 22      Bus 24      18          0.06009    -0.01771     4e-05       0          
+Bus 40      Bus 29      19         -0.50288     0.17895     0.00023    -0.00038    
+Bus 30      Bus 29      20         -0.12785     0.06162     7e-05      -0.00012    
+Bus 56      Bus 28      21         -0.15851     0.01158     3e-05      -0.00072    
+Bus 13      Bus 28      22         -0.02635     0.01258     0          -0.00025    
+Bus 53      Bus 44      23          0.01577    -0.00764     0          -8e-05      
+Bus 13      Bus 56      24          0.00876     0.00284     0          -8e-05      
+Bus 36      Bus 56      25         -0.01097     0.01236     0          -8e-05      
+Bus 31      Bus 56      26         -0.06222     0.03714     6e-05       3e-05      
+Bus 32      Bus 13      27         -0.03168     0.01525     1e-05      -6e-05      
+Bus 37      Bus 32      28         -0.01151     0.00359     0          -0.00102    
+Bus 36      Bus 32      29          0.07231    -0.03512     1e-05      -0.0005     
+Bus19       Bus25       30         -0.24206     0.07628     3e-05      -0.00155    
+Bus 36      Bus 37      31          0.09712    -0.03128     1e-05      -0.00073    
+Bus 42      Bus 37      32         -0.04694     0.01751     0          -0.00063    
+Bus 42      Bus 36      33         -0.32974     0.11504     6e-05      -0.0014     
+Bus 40      Bus 26      34         -0.18854     0.07101     3e-05      -0.00121    
+Bus 40      Bus 27      35         -0.15032     0.07249     0.0001     -6e-05      
+Bus 30      Bus 40      36          0.13726    -0.06732     1e-05      -0.00224    
+Bus 60      Bus 40      37         -1.7273      0.03959     0.00017    -0.01005    
+Bus 27      Bus25       38         -0.23668     0.0821      1e-05      -0.0044     
+Bus 35      Bus 30      39         -0.19607     0.06237     9e-05      -0.0001     
+Bus 38      Bus 34      40         -0.11879     0.04073     0.00017     0.00026    
+Bus 35      Bus 38      41          0.02       -0.00973     0          -0.00017    
+Bus 39      Bus 38      42         -0.05896     0.02845     5e-05       1e-05      
+Bus 40      Bus 35      43          3.0674     -0.97753     0.00124    -0.0027     
+Bus 35      Bus 39      44          4.4609     -1.4187      0.00263     0.00166    
+Bus 6       Bus 39      45         -4.2672      1.365       0.00482     0.01184    
+Bus 35      Bus 42      46         -0.94801     0.30176     0.00048    -0.00016    
+Bus 28      Bus 27      47          0.10443    -0.03769     1e-05      -0.00099    
+Bus 35      Bus 31      48         -0.20321     0.06439     5e-05      -0.00061    
+Bus 31      Bus 60      49         -0.28408     0.49477     3e-05      -0.00887    
+Bus 60      Bus 33      50         -0.31216    -0.28152     1e-05      -0.01023    
+Bus 47      Bus 33      51         -0.10101     0.01371     0          -0.00234    
+Bus 43      Bus 42      52          0.00322    -0.004       0          -0.00556    
+Bus 47      Bus 43      53         -0.97428     0.30891     0.00025    -0.00251    
+Bus 48      Bus 42      54         -0.20736     0.09949     4e-05      -0.00104    
+Bus 33      Bus 27      55         -0.19155     0.09245     0.00016     7e-05      
+Bus 47      Bus 45      56          1.0778     -0.38272     0.00105     0.00192    
+Bus 49      Bus 45      57          0.7021     -0.24752     0.00044     0.00023    
+Bus 6       Bus 45      58         -1.7491      0.6671      0.00228     0.00473    
+Bus 46      Bus 45      59         -0.18232     0.08817     0.00014     4e-05      
+Bus 48      Bus 47      60          0.46206    -0.14863     6e-05      -0.00312    
+Bus 49      Bus 47      61         -1.7194      0.55621     0.00052    -0.00331    
+Bus 52      Bus 47      62          0.10738    -0.05291     1e-05      -0.00225    
+Bus 4       Bus 48      63          0.03635    -0.01765     1e-05      -0.00025    
+Bus 54      Bus 49      64         -0.31376     0.09808     0.00011    -0.00041    
+Bus 28      Bus25       65          0.07617    -0.02506     0          -0.00164    
+Bus 53      Bus 49      66         -0.67483     0.23814     0.00041     0.00013    
+Bus 46      Bus 49      67         -0.94232     0.30012     0.00102     0.00244    
+Bus 4       Bus 52      68          0.02222    -0.01075     1e-05      -7e-05      
+Bus 54      Bus 52      69         -0.08165     0.03945     9e-05       9e-05      
+Bus 53      Bus 54      70         -0.29574     0.11178     7e-05      -0.00111    
+Bus 55      Bus 54      71         -0.04096     0.0195      0          -0.00051    
+Bus 44      Bus 39      72         -0.22866     0.10978     5e-05      -0.00102    
+Bus 20      Bus19       73          0.04339    -0.02105     1e-05      -0.00024    
+Bus 6       Bus 44      74         -0.34376     0.16631     0.00051     0.0008     
+Bus 46      Bus 6       75          3.1069     -1.1031      0.00201     0.0012     
+Bus 6       Bus 57      76          0.08799    -0.03372     1e-05      -0.00061    
+Bus 53      Bus 46      77          2.032      -0.64829     0.00109     0.00013    
+Bus 55      Bus 53      78          0.08424    -0.03908     2e-05      -0.00044    
+
+GLOBAL SUMMARY REPORT
+
+
+TOTAL GENERATION
+
+REAL POWER [p.u.]             10.7686    
+REACTIVE POWER [p.u.]         4.6165     
+
+TOTAL LOAD
+
+REAL POWER [p.u.]             10.7468    
+REACTIVE POWER [p.u.]         4.6777     
+
+TOTAL LOSSES
+
+REAL POWER [p.u.]             0.02179    
+REACTIVE POWER [p.u.]        -0.06116    
+
+LIMIT VIOLATION STATISTICS
+# OF VOLTAGE LIMIT VIOLATIONS: 42
+# OF REACTIVE POWER LIMIT VIOLATIONS: 13
+ALL CURRENT FLOWS WITHIN LIMITS.
+ALL REAL POWER FLOWS WITHIN LIMITS.
+ALL APPARENT POWER FLOWS WITHIN LIMITS.
+
+
